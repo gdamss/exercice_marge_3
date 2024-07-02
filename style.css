@@ -1,0 +1,17 @@
+.conteneur {
+  width: 80%;
+  background-color: #777; /*Gris*/
+  border: 1px solid black;
+}
+p {
+  width: 100%;
+  background-color: #0cc; /*Bleu-vert*/
+  padding: 20px;
+  border: 10px solid black;
+}
+#p2 {
+  box-sizing: content-box; /*Valeur par défaut*/
+}
+#p3 {
+  box-sizing: border-box;
+}
